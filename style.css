@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(229, 201, 229);
+}
+
+#nav{
+    display: flex;
+    background-color: rgb(70, 77, 118);
+    color: white;
+    height: 50px;
+    justify-content: space-between;
+}
+
+#nav-bar {
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+#nav-img {
+    width: 60px;
+    height: 60px;
+}
+
+#text {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 10px;
+    text-shadow: 0 0 10px #b31561, 0 0 10px #d70eb2;
+}
+
+#nav-elements>ul>li,
+#nav-elements>ul>li>a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#nav-elements>ul>li>a:hover {
+    color: blue;
+}
+
+#nav-elements {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    align-self: auto;
+}
+
+.books {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.table-main {
+    display: inline-block;
+    width: 60%;
+    padding: 18px;
+    align-items: center;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px 1px black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    margin-top: 20px;
+    color: rgb(119, 59, 146);
+}
+
+.heading{
+    color: rgb(119, 59, 146);
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(55, 5, 78);
+    border-collapse: collapse;
+}
+
+.data1 {
+    width: 20vw;
+    padding: 5px;
+}
+
+.data2 {
+    width: 20vw;
+    padding: 5px;
+}
+
+.data3 {
+    width: 30vw;
+    padding: 5px;
+}
+
+.data4 {
+    width: 15vw;
+    padding: 5px;
+}
+
+.data5 {
+    width: 20vw;
+    padding: 5px;
+}
+
+.t {
+    padding-inline: 14px;
+    padding-bottom: 10px;
+}
+
+th {
+    text-align: left;
+    padding-left: 5px;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+}
+
+#button {
+    color: white;
+    background-color: rgb(36, 23, 65);
+    margin-top: 25px;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.reg {
+    height: 100%;
+    padding-bottom: 50px;
+}
